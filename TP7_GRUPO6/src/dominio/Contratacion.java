@@ -8,7 +8,7 @@ public class Contratacion {
 	private static int contadorId = 0;
 	
 	public Contratacion() {
-		
+	
 	}
 	
 	public Contratacion(int idContratacion, String nombreUsuario, int idSeguro, float costoContratacion) {
@@ -20,7 +20,7 @@ public class Contratacion {
 	}
 	public int getIdContratacion() {
 		return idContratacion;
-		/*lalalalala*/
+		
 	}
 	public void setIdContratacion(int idContratacion) {
 		this.idContratacion = idContratacion;

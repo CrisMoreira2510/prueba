@@ -20,6 +20,7 @@ public class Contratacion {
 	}
 	public int getIdContratacion() {
 		return idContratacion;
+		/*lalalalal*/
 	}
 	public void setIdContratacion(int idContratacion) {
 		this.idContratacion = idContratacion;

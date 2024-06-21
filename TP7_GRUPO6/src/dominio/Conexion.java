@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-//esta conexion es una mierda gghchg
+//esta conexion es una mierda gghchg ghcjhvkbjlnk
 	public static Conexion instancia;
 	private Connection connection;
 	

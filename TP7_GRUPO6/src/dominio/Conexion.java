@@ -5,13 +5,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-//esta conexion es una mierda
+//esta conexion es una mierda gghchg
 	public static Conexion instancia;
 	private Connection connection;
 	
 	private Conexion() {
 		
-		try {
+		try { 
 			Class.forName("com.mysql.jdbc.Driver");
 			this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/SegurosGroup", "root","root");
 			this.connection.setAutoCommit(false);
